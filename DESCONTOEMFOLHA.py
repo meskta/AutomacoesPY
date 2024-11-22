@@ -103,15 +103,15 @@ def process_excel_file(file_path, connection):
 def main():
     # Configurações do banco de dados
     db_config = {
-        "host_name": "10.2.0.7",
-        "port": 3306,
-        "user_name": "siscartao",
-        "user_password": "CB@cr3d1t02018",
-        "db_name": "siscartao"
+        "host_name": "xx.x.xx.x",
+        "port": xxxx,
+        "user_name": "username",
+        "user_password": "senhabd",
+        "db_name": "nomedb"
     }
 
     # Caminho base para os arquivos
-    base_path = r'N:\OPERAÇÕES\OPERAÇÕES\05_BAIXA\NIO Upload'
+    base_path = r'N:\exemplodiretorio'
 
     # Data atual
     hoje = datetime.now()
